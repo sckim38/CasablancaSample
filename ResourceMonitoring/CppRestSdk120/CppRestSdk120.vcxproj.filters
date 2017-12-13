@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{617f0fa8-008b-49a0-a5de-ef4eed1d2bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\cpprest">
+      <UniqueIdentifier>{392ab82e-99d9-4441-b6a2-e8060a438fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pplx">
+      <UniqueIdentifier>{973ecbfe-967f-4850-8e55-dca46aca9f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\cpprest\details">
+      <UniqueIdentifier>{addabdbf-ec2e-4db3-be32-b276af3c5048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d16a778f-87b2-4bc0-92c8-42e8c8316f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\http">
+      <UniqueIdentifier>{e02ac7e2-5422-409a-9d40-faf654fcd4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\json">
+      <UniqueIdentifier>{2eeefbe2-054d-4e1a-955e-0ce41d07bc2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pplx">
+      <UniqueIdentifier>{f86ca22c-401a-45ee-938e-36191450db4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\streams">
+      <UniqueIdentifier>{891e6936-e9ab-4b2d-a443-860a3bc147ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\uri">
+      <UniqueIdentifier>{b398d0b9-93ef-4db2-b5e7-7a5048d30426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities">
+      <UniqueIdentifier>{24680313-31f3-4202-b977-5da8bb81861a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\websockets">
+      <UniqueIdentifier>{98a195e6-54c5-461f-bc63-bf972a354906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\http\client">
+      <UniqueIdentifier>{85e7b051-65b0-4f2d-a29b-6d18af1ed705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\http\common">
+      <UniqueIdentifier>{bc6dd124-ea63-4a7b-bfbc-fb47fec8ac81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\http\listener">
+      <UniqueIdentifier>{37bc7a5e-7c0b-423b-b283-9201df52c586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\http\oauth">
+      <UniqueIdentifier>{092c0821-0df3-4093-a562-c38b3ee89c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\websockets\client">
+      <UniqueIdentifier>{2fa3db78-6d01-40bc-968c-b7ef2af91c68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\pplx\pplx.h">
+      <Filter>include\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\pplx\pplxcancellation_token.h">
+      <Filter>include\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\pplx\pplxconv.h">
+      <Filter>include\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\pplx\pplxinterface.h">
+      <Filter>include\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\pplx\pplxtasks.h">
+      <Filter>include\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\pplx\pplxwin.h">
+      <Filter>include\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\astreambuf.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\asyncrt_utils.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\base_uri.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\containerstream.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\filestream.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\http_client.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\http_headers.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\http_listener.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\http_msg.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\interopstream.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\json.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\oauth1.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\oauth2.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\producerconsumerstream.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\rawptrstream.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\streams.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\uri.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\uri_builder.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\version.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\ws_client.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\ws_msg.h">
+      <Filter>include\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\basic_types.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\cpprest_compat.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\fileio.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\http_helpers.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\http_server.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\http_server_api.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\http_server_asio.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\http_server_httpsys.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\nosal.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\resource.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\SafeInt3.hpp">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\uri_parser.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\web_utilities.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\include\cpprest\details\x509_cert_utilities.h">
+      <Filter>include\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\src\http\client\http_client_impl.h">
+      <Filter>src\http\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Casablanca\src\http\common\internal_http_helpers.h">
+      <Filter>src\http\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\client\http_client.cpp">
+      <Filter>src\http\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\client\http_client_msg.cpp">
+      <Filter>src\http\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\client\http_client_winhttp.cpp">
+      <Filter>src\http\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\client\x509_cert_utilities.cpp">
+      <Filter>src\http\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\common\http_helpers.cpp">
+      <Filter>src\http\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\common\http_msg.cpp">
+      <Filter>src\http\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\listener\http_listener.cpp">
+      <Filter>src\http\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\listener\http_listener_msg.cpp">
+      <Filter>src\http\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\listener\http_server_api.cpp">
+      <Filter>src\http\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\listener\http_server_httpsys.cpp">
+      <Filter>src\http\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\oauth\oauth1.cpp">
+      <Filter>src\http\oauth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\http\oauth\oauth2.cpp">
+      <Filter>src\http\oauth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\json\json.cpp">
+      <Filter>src\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\json\json_parsing.cpp">
+      <Filter>src\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\json\json_serialization.cpp">
+      <Filter>src\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\websockets\client\ws_client.cpp">
+      <Filter>src\websockets\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\websockets\client\ws_client_wspp.cpp">
+      <Filter>src\websockets\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\websockets\client\ws_msg.cpp">
+      <Filter>src\websockets\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\utilities\asyncrt_utils.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\utilities\base64.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\utilities\web_utilities.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\uri\uri.cpp">
+      <Filter>src\uri</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\uri\uri_builder.cpp">
+      <Filter>src\uri</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\uri\uri_parser.cpp">
+      <Filter>src\uri</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\streams\fileio_win32.cpp">
+      <Filter>src\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\pplx\pplx.cpp">
+      <Filter>src\pplx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Casablanca\src\pplx\pplxwin.cpp">
+      <Filter>src\pplx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Casablanca\include\cpprest\details\http_constants.dat">
+      <Filter>include\cpprest\details</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Casablanca\src\utilities\Resource.rc">
+      <Filter>src\utilities</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
