@@ -234,7 +234,7 @@ std::wstring GetSWInfoToJsonFormat()
 	json::value iparr;
 	std::for_each(sysinfo.local_ip_list.begin(), sysinfo.local_ip_list.end(), [&iparr](const std::string &ip)
 	{
-		iparr[iparr.size()] = json::value(std::to_wstring(ip));
+		iparr[iparr.size()] = json::value(::to_wstring(ip));
 	});
 
 	info[U("IPList")] = iparr;
